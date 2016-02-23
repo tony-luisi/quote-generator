@@ -34,6 +34,8 @@ function load() {
 			js.src=p+'://platform.twitter.com/widgets.js';
 			fjs.parentNode.insertBefore(js,fjs);
 		}}(document, 'script', 'twitter-wjs');
+
+		press();
 	});
 
 
