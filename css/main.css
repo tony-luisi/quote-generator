@@ -41,8 +41,9 @@ h3 {
 	text-align: justify;
 }
 
-.twitter-share-button {
-	margin: 0 auto;
+#twitterbutton, #followbutton {
+	width: 200px;
+	float: left;
 }
 
 
