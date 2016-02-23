@@ -12,9 +12,7 @@ h1, h2, h3, h4, p {
 #button {
 	background-color: none;
 	color: white;
-	margin: 0 auto
-	display: block
-	font-family: "Buffalo Western";
+	margin: 0 auto;
 }
 
 .twitter-share-button {
