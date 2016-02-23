@@ -3,12 +3,12 @@ body {
 }
 
 h1 {
-	font-family: "Buffalo Western";
-	color: red;
+	font-family: "Audiowide";
+	color: white;
 }
 
-h3, h6 {
-	color: red;
+h3 {
+	color: #A41333;
 	text-align: center;
 }
 
@@ -17,16 +17,15 @@ h3, h6 {
 	color: pink;
 	margin: 0 auto;
 	display: block;
-	font-family: "Buffalo Western";
+	font-family: "Share Tech";
 }
 
 .twitter-share-button {
-	text-align: center;
 	margin: 0 auto;
 	display: inline;
 }
 
-#quote {
+h6 {
 	background-colour: #A41333;
 	border-radius: 15px;
 	color:white;
