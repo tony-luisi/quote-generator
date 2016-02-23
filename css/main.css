@@ -13,10 +13,8 @@ h1 {
 }
 
 #button {
-	display: block;
+	display: inline;
 	margin: 0 auto;
-	width:150px; 
-	height:150px;
 }
 
 h3 {
