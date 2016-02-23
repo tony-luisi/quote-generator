@@ -42,7 +42,7 @@ h3 {
 }
 #media-buttons {
 	margin: 0 auto;
-	display: block;
+	display: inline-block;
 	width: 100%;
 }
 
