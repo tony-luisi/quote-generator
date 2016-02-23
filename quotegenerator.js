@@ -60,7 +60,7 @@ function press() {
 
 	twttr.ready(function() {
 		document.getElementById('twitterbutton').innerHTML = "";
-		twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote });
+		twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote, size: 'large' });
 
 
 	});
