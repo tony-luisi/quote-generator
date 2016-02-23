@@ -9,7 +9,7 @@ h1 {
 	text-align: center;
 }
 #title {
-	font-size: 50px;
+	font-size: 8em;
 }
 
 #button {
@@ -23,6 +23,7 @@ h1 {
 h3 {
 	color: #B4AFAB;
 	text-align: center;
+	color: red;
 }
 
 /*#button {
