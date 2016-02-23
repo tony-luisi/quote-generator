@@ -26,13 +26,9 @@ h3 {
 	margin: 1px;
 }
 
-/*#button {
-	background-color: gray;
-	color: pink;
-	margin: 0 auto;
-	display: block;
-	font-family: "Share Tech";
-}*/
+#quote {
+	background-color: white;
+}
 
 .twitter-share-button {
 	margin: 0 auto;
