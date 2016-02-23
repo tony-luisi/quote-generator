@@ -1,8 +1,6 @@
 var lines = [];
-var currentQuote;
 
-function load() {
-	$(document).ready(function() {
+$(document).ready(function() {
 		//fetch the text file
 		$.get('./resources/chuck_norris_quotes.txt', function(data) {
 			//split the data up according to line breaks into the lines array
@@ -62,9 +60,7 @@ function load() {
 		});
 
 
-	});
-
-}
+});
 
 function press() {
 	//randomly generate the quote
