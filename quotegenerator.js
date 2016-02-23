@@ -36,5 +36,6 @@ function press() {
 	//send the quote to the text element
 	console.log(currentQuote);
 	$('#quote').text(currentQuote);
+	$('title').text(currentQuote);
 
 }
