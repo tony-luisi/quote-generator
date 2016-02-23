@@ -7,6 +7,8 @@ function load() {
 			//split the data up according to line breaks into the lines array
 			lines = data.split('\n');
 			console.log(lines);
+			$('#quote').text(lines[1]);
+
 		});
 
 	$('.popup').click(function(event) {
@@ -35,7 +37,6 @@ function load() {
 			fjs.parentNode.insertBefore(js,fjs);
 		}}(document, 'script', 'twitter-wjs');
 
-		press();
 	});
 
 
