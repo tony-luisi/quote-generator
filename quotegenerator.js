@@ -8,7 +8,7 @@ function load() {
 			//split the data up according to line breaks into the lines array
 			lines = data.split('\n');
 			currentQuote = lines[1];
-			console.log(lines);
+			//console.log(lines);
 			$('#quote').text(currentQuote);
 
 		});
@@ -56,7 +56,8 @@ function load() {
 		}(document, 'script', 'twitter-wjs');
 		*/
 		twttr.ready(function() {
-			twttr.widgets.createShareButton('https://dev.twitter.com/',document.getElementById('twitterbutton'),{text: currentQuote});
+			console.log(currentQuote);
+			twttr.widgets.createShareButton('https://dev.twitter.com/',document.getElementById('twitterbutton'),{ text: currentQuote });
 			
 		});
 
@@ -69,9 +70,9 @@ function press() {
 	//randomly generate the quote
 	currentQuote = lines[Math.floor(lines.length * Math.random())];
 	//send the quote to the text element
-	console.log(currentQuote);
+	//console.log(currentQuote);
 	$('#quote').text(currentQuote);
-	twtter.ready(function() {
+	twttr.ready(function() {
 		twttr.widgets.load();
 
 	});
