@@ -1,5 +1,6 @@
 body {
-	background-color: #00358F;
+	/*background-color: #00358F;*/
+    background-image: url("../images/texas-bg.jpg");
 }
 
 p {
@@ -15,6 +16,7 @@ h1 {
 	text-align: center;
 	padding-top: 15px;
 }
+
 #title {
 	font-size: 2em;
 }
