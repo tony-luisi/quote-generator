@@ -42,22 +42,10 @@ $(document).ready(function() {
 			};
 			return t;
 		}(document, "script", "twitter-wjs"));
-		/*
-
-		!function(d,s,id) {
-			var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
-			if(!d.getElementById(id)){
-				js=d.createElement(s);
-				js.id=id;
-				js.src=p+'://platform.twitter.com/widgets.js';
-				fjs.parentNode.insertBefore(js,fjs);
-			}
-		}(document, 'script', 'twitter-wjs');
-		*/
 		twttr.ready(function() {
 			console.log(currentQuote);
 			twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote });
-			
+			twttr.widgets.createFollowButton('chucknorris', document.getElementById('followbutton'),{size: 'large'});
 		});
 
 
