@@ -2,7 +2,7 @@ body {
 	background-color: #00358F;
 }
 
-h1, h2, p {
+h1, h2, h3, h4, p {
 	color: white;
 	text-align: center;
 }
@@ -11,4 +11,8 @@ h1, h2, p {
 	background-color: none;
 	color: white;
 	border: 2px solid white;
+}
+
+.twitter-share-button {
+	color: white;
 }
