@@ -27,7 +27,11 @@ h3 {
 }
 
 #quote {
+	font-family: "Buffalo Western";
 	background-color: white;
+	border-radius: 20px;
+	padding: 15px;
+	text-align: center;
 }
 
 .twitter-share-button {
