@@ -52,13 +52,16 @@ function load() {
 			}
 		}(document, 'script', 'twitter-wjs');
 
-		window.twttr.widgets.createShareButton(
+		twttr.ready(function() {
+			twttr.widgets.createShareButton(
 			'https://dev.twitter.com/',
 			document.getElementById('twitterbutton'),
 			{
 				text: 'Hello World'
 			}
-		);
+			);
+
+		}
 
 
 	});
