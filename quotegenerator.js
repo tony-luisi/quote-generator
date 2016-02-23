@@ -71,9 +71,8 @@ function press() {
 	$('#quote').text(currentQuote);
 
 	twttr.ready(function() {
-		twttr.widgets.load(document.getElementById('twitterbutton'));
-		console.log("DONE");
-		$.getScript('http://platform.twitter.com/widgets.js');
+		document.getElementById('twitterbutton').innerHTML = "";
+		twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote });
 
 
 	});
