@@ -44,7 +44,7 @@ $(document).ready(function() {
 		}(document, "script", "twitter-wjs"));
 		twttr.ready(function() {
 			console.log(currentQuote);
-			twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote });
+			twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote, size: 'large' });
 			twttr.widgets.createFollowButton('chucknorris', document.getElementById('followbutton'),{size: 'large'});
 		});
 
