@@ -11,10 +11,10 @@ function load() {
 }
 
 function press() {
-	console.log("IN HERE");
 	//randomly generate the quote
 	var currentQuote = lines[Math.floor(lines.length * Math.random)];
 	//send the quote to the text element
+	console.log(currentQuote);
 	$('#quote').text(currentQuote);
 
 }
