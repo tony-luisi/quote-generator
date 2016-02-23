@@ -43,12 +43,12 @@ h3 {
 #media-buttons {
 	margin: 0 auto;
 	display: inline-block;
+	float: left;
 	width: 100%;
 }
 
-/*#twitterbutton, #followbutton {
-	width: 200px;
-	float: left;
+#twitterbutton, #followbutton {
+
 	margin: 0 auto;
 }
 
