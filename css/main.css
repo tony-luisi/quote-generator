@@ -42,7 +42,7 @@ h3 {
 }
 #media-buttons {
 	margin: 0 auto;
-	display: inline-block;
+	display: block;
 	float: left;
 	width: 100%;
 }
@@ -54,6 +54,6 @@ h3 {
 
 #twitterbutton {
 	padding-left:100px;
-}*/
+}
 
 
