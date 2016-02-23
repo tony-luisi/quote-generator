@@ -1,4 +1,5 @@
 var lines = [];
+var currentQuote;
 
 function load() {
 	$(document).ready(function() {
@@ -6,8 +7,9 @@ function load() {
 		$.get('./resources/chuck_norris_quotes.txt', function(data) {
 			//split the data up according to line breaks into the lines array
 			lines = data.split('\n');
+			currentQuote = lines[1]''
 			console.log(lines);
-			$('#quote').text(lines[1	]);
+			$('#quote').text(currentQuote);
 
 		});
 
@@ -41,6 +43,7 @@ function load() {
 			};
 			return t;
 		}(document, "script", "twitter-wjs"));
+		/*
 
 		!function(d,s,id) {
 			var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
@@ -51,9 +54,9 @@ function load() {
 				fjs.parentNode.insertBefore(js,fjs);
 			}
 		}(document, 'script', 'twitter-wjs');
-
+		*/
 		twttr.ready(function() {
-			twttr.widgets.createShareButton('https://dev.twitter.com/',document.getElementById('twitterbutton'),{text: 'Hello World'});
+			twttr.widgets.createShareButton('https://dev.twitter.com/',document.getElementById('twitterbutton'),{text: currentQuote});
 			
 		});
 
@@ -64,10 +67,14 @@ function load() {
 
 function press() {
 	//randomly generate the quote
-	var currentQuote = lines[Math.floor(lines.length * Math.random())];
+	currentQuote = lines[Math.floor(lines.length * Math.random())];
 	//send the quote to the text element
 	console.log(currentQuote);
 	$('#quote').text(currentQuote);
+	twtter.ready(function() {
+		twttr.widgets.load();
+
+	});
 
 }
 
