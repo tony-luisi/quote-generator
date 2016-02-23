@@ -40,8 +40,13 @@ h3 {
 	padding: 20px;
 	text-align: justify;
 }
+#media-buttons {
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
 
-#twitterbutton, #followbutton {
+/*#twitterbutton, #followbutton {
 	width: 200px;
 	float: left;
 	margin: 0 auto;
@@ -49,6 +54,6 @@ h3 {
 
 #twitterbutton {
 	padding-left:100px;
-}
+}*/
 
 
