@@ -10,7 +10,7 @@ function load() {
 			$('#quote').text(lines[1	]);
 
 		});
-/*
+
 	$('.popup').click(function(event) {
     var width  = 575,
         height = 400,
@@ -28,7 +28,6 @@ function load() {
     return false;
   });
 
-
 	!function(d,s,id) {
 		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
 		if(!d.getElementById(id)){
@@ -39,7 +38,6 @@ function load() {
 		}}(document, 'script', 'twitter-wjs');
 
 	});
-	*/
 
 	window.twttr = (function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0],
@@ -59,15 +57,6 @@ function load() {
 }(document, "script", "twitter-wjs"));
 
 
-twttr.widgets.createShareButton(
-  'https://dev.twitter.com/',
-  document.getElementById('container'),
-  {
-    text: 'Hello World'
-  }
-);
-
-}
 }
 
 function press() {
