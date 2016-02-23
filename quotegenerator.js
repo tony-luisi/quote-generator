@@ -7,7 +7,7 @@ function load() {
 		$.get('./resources/chuck_norris_quotes.txt', function(data) {
 			//split the data up according to line breaks into the lines array
 			lines = data.split('\n');
-			currentQuote = lines[1]''
+			currentQuote = lines[1];
 			console.log(lines);
 			$('#quote').text(currentQuote);
 
