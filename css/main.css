@@ -2,8 +2,11 @@ body {
 	background-color: #00358F;
 }
 
-h1, h2, h3, h4, p {
-	font-family
+h1 {
+	font-family: "Buffalo Western";
+}
+
+h3, h6 {
 	color: white;
 	text-align: center;
 }
@@ -12,7 +15,7 @@ h1, h2, h3, h4, p {
 	background-color: none;
 	color: white;
 	margin: 0 auto;
-	display: inline-block;
+	display: block;
 	font-family: "Buffalo Western";
 }
 
