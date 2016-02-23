@@ -25,6 +25,15 @@ function load() {
  
     return false;
   });
+
+	!function(d,s,id) {
+		var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+		if(!d.getElementById(id)){
+			js=d.createElement(s);
+			js.id=id;
+			js.src=p+'://platform.twitter.com/widgets.js';
+			fjs.parentNode.insertBefore(js,fjs);
+		}}(document, 'script', 'twitter-wjs');
 	});
 
 
@@ -36,6 +45,6 @@ function press() {
 	//send the quote to the text element
 	console.log(currentQuote);
 	$('#quote').text(currentQuote);
-	$('title').text(currentQuote);
 
 }
+
