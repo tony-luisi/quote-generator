@@ -6,17 +6,21 @@ h1, h2, h3, h4, p {
 	font-family
 	color: white;
 	text-align: center;
-	font-family: "Buffalo Western";
 }
 
 #button {
 	background-color: none;
 	color: white;
 	margin: 0 auto;
+	display: inline-block;
+	font-family: "Buffalo Western";
 }
 
 .twitter-share-button {
-	display: block;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	display: inline;
 }
 
 /*title {
