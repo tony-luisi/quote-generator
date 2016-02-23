@@ -45,7 +45,7 @@ h3 {
 	margin: 0 auto;
 	display: inline-block;
 	width: 100%;
-	position: relative;
+	position: static;
 	margin: 0 auto;
 }
 
