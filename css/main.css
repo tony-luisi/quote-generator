@@ -26,4 +26,9 @@ h3, h6 {
 	display: inline;
 }
 
+#quote {
+	background-colour: #A41333;
+	border-radius: 15px;
+	color:white;
+}
 
