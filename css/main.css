@@ -44,6 +44,7 @@ h3 {
 #twitterbutton, #followbutton {
 	width: 200px;
 	float: left;
+	margin: 0 auto;
 }
 
 #twitterbutton {
