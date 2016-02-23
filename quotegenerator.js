@@ -73,6 +73,7 @@ function press() {
 	twttr.ready(function() {
 		twttr.widgets.load(document.getElementById('twitterbutton'));
 		console.log("DONE");
+		$.getScript('http://platform.twitter.com/widgets.js');
 
 
 	});
