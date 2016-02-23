@@ -10,7 +10,9 @@ h1, h2, h3, h4, p {
 #button {
 	background-color: none;
 	color: white;
-	margin: 0 auto;
+	margin: 0 auto
+	display: block
+	font-family: "Audiowide";
 }
 
 .twitter-share-button {
@@ -19,7 +21,8 @@ h1, h2, h3, h4, p {
 	margin: 0 auto;
 }
 
-title {
+/*title {
 	font-family: "Audiowide";
 	display: block;
 }
+
