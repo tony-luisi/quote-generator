@@ -16,9 +16,7 @@ h1, h2, h3, h4, p {
 }
 
 .twitter-share-button {
-	color: white;
-	text-align: center;
-	margin: 0 auto;
+	display: block;
 }
 
 /*title {
