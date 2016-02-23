@@ -6,3 +6,9 @@ h1, h2, p {
 	color: white;
 	text-align: center;
 }
+
+#button {
+	background-color: none;
+	color: white;
+	border: 2px solid white;
+}
