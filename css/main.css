@@ -3,8 +3,10 @@ body {
 }
 
 h1, h2, h3, h4, p {
+	font-family
 	color: white;
 	text-align: center;
+	font-family: "Buffalo Western";
 }
 
 #button {
@@ -12,7 +14,7 @@ h1, h2, h3, h4, p {
 	color: white;
 	margin: 0 auto
 	display: block
-	font-family: "Audiowide";
+	font-family: "Buffalo Western";
 }
 
 .twitter-share-button {
