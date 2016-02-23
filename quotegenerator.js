@@ -69,8 +69,11 @@ function press() {
 	//send the quote to the text element
 	//console.log(currentQuote);
 	$('#quote').text(currentQuote);
+
 	twttr.ready(function() {
-		twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote });
+		twttr.widgets.load(document.getElementById('twitterbutton'));
+		console.log("DONE");
+
 
 	});
 
