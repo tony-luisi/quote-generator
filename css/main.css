@@ -10,8 +10,11 @@ h1, h2, h3, h4, p {
 #button {
 	background-color: none;
 	color: white;
+	margin: 0 auto;
 }
 
 .twitter-share-button {
 	color: white;
+	text-align: center;
+	margin: 0 auto;
 }
