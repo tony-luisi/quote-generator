@@ -4,17 +4,17 @@ body {
 
 h1 {
 	font-family: "Buffalo Western";
-	color: white;
+	color: red;
 }
 
 h3, h6 {
-	color: white;
+	color: red;
 	text-align: center;
 }
 
 #button {
-	background-color: white;
-	color: white;
+	background-color: gray;
+	color: pink;
 	margin: 0 auto;
 	display: block;
 	font-family: "Buffalo Western";
