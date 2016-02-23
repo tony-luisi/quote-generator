@@ -56,7 +56,7 @@ $(document).ready(function() {
 		*/
 		twttr.ready(function() {
 			console.log(currentQuote);
-			twttr.widgets.createShareButton('https://dev.twitter.com/',document.getElementById('twitterbutton'),{ text: currentQuote });
+			twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote });
 			
 		});
 
@@ -70,7 +70,7 @@ function press() {
 	//console.log(currentQuote);
 	$('#quote').text(currentQuote);
 	twttr.ready(function() {
-		twttr.widgets.load();
+		twttr.widgets.createShareButton('http://tony-luisi.github.io/quote-generator/',document.getElementById('twitterbutton'),{ text: currentQuote });
 
 	});
 
