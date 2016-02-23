@@ -42,8 +42,9 @@ h3 {
 }
 #media-buttons {
 	margin: 0 auto;
-	display: inline;
+	display: inline-block;
 	width: 100%;
+	position: relative;
 }
 
 #twitterbutton, #followbutton {
