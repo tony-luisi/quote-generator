@@ -2,6 +2,13 @@ body {
 	background-color: #00358F;
 }
 
+p {
+	color: white;
+	text-align: center;
+	font-size: 1.8em;
+	padding: 50px 0;
+}
+
 h1 {
 	font-family: "Audiowide";
 	font-size: 1.8em;
