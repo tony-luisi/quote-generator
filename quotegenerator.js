@@ -13,8 +13,7 @@ function load() {
 
 function press() {
 	//randomly generate the quote
-	var currentQuote = lines[Math.floor(lines.length * Math.random)];
-	currentQuote = lines[0];
+	var currentQuote = lines[Math.floor(lines.length * Math.random())];
 	//send the quote to the text element
 	console.log(currentQuote);
 	$('#quote').text(currentQuote);
