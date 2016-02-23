@@ -58,7 +58,8 @@ function load() {
   return t;
 }(document, "script", "twitter-wjs"));
 
-	twttr.widgets.createShareButton(
+
+twttr.widgets.createShareButton(
   'https://dev.twitter.com/',
   document.getElementById('container'),
   {
@@ -66,7 +67,7 @@ function load() {
   }
 );
 
-
+}
 }
 
 function press() {
