@@ -52,7 +52,7 @@ function load() {
 			}
 		}(document, 'script', 'twitter-wjs');
 
-		twttr.widgets.createShareButton(
+		window.twttr.widgets.createShareButton(
 			'https://dev.twitter.com/',
 			document.getElementById('twitterbutton'),
 			{
