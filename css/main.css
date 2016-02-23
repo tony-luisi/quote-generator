@@ -4,9 +4,12 @@ body {
 
 h1 {
 	font-family: "Audiowide";
-	font-size: 2em;
+	font-size: 1.4em;
 	color: white;
 	text-align: center;
+}
+#title {
+	font-size: 2em;
 }
 
 #button {
