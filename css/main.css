@@ -14,17 +14,16 @@ h4 {
 	color: black;
 	font-family: "Audiowave";
 	text-align: center;
-	color: red;
 	margin: 1px;
 }
 
 #quote {
 	padding-top: 15px;
+	padding-bottom: 20px;
 	width: 800px;
 	background-color: white;
 	border-radius: 20px;
 	padding: 20px;
-	padding-bottom: 20px;
 	text-align: justify;
 	margin: auto;
 }
