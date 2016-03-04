@@ -1,5 +1,4 @@
 body {
-	/*background-color: #00358F;*/
     background-image: url("../images/texas-bg.jpg");
 }
 
@@ -22,8 +21,7 @@ h1 {
 }
 
 #button {
-	display: inline;
-	margin: 0 auto;
+	padding: 0px;
 }
 
 h3 {
@@ -35,18 +33,24 @@ h3 {
 
 #quote {
 	padding-top: 15px;
+	width: 400px;
+	display: block;
 	background-color: white;
 	border-radius: 20px;
 	padding: 20px;
+	padding-bottom: 50px;
 	text-align: justify;
+	margin: auto;
 }
 
 #twitterbutton, #followbutton {
 	margin: 0 auto;
-	display: inline-block;
-	width: 100%;
-	position: static;
-	margin: 0 auto;
+	display: inline;
+}
+
+#media-buttons {
+  display: flex;
+  align-items: center;
 }
 
 
