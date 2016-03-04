@@ -1,5 +1,5 @@
 var lines = [];
-var currentQuote = "MacGyver can build an airplane out of gum and paper clips. Chuck Norris can kill him and take it.";
+var currentQuote = "Click on Chucks face to generate a fact";
 
 $(document).ready(function() {
 		//fetch the text file
@@ -66,4 +66,3 @@ function press() {
 	});
 
 }
-
