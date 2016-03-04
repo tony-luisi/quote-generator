@@ -33,7 +33,7 @@ h3 {
 
 #quote {
 	padding-top: 15px;
-	width: 600px;
+	width: 400px;
 	display: block;
 	background-color: white;
 	border-radius: 20px;
@@ -43,14 +43,15 @@ h3 {
 	margin: auto;
 }
 
-#twitterbutton, #followbutton {
-	margin: 0 auto;
-	display: inline;
-}
-
 #media-buttons {
   display: flex;
   align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+   display: -webkit-flex;
+   display: flex;
 }
 
 
