@@ -24,8 +24,9 @@ h1 {
 	padding: 0px;
 }
 
-h3 {
-	color: #940F2B;
+h4 {
+	color: black;
+	font-family: "buffalo western";
 	text-align: center;
 	color: red;
 	margin: 1px;
@@ -33,7 +34,7 @@ h3 {
 
 #quote {
 	padding-top: 15px;
-	width: 400px;
+	width: 800px;
 	display: block;
 	background-color: white;
 	border-radius: 20px;
